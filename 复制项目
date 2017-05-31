@@ -1,0 +1,4 @@
+复制已有项目时。
+1. 需要改pom.xml 中的<artifactId> <name> <finalName>
+2. 右键项目名，找到属性->web project settings改为自己的项目名 
+3. 找到项目的文件位置 ->.settings -> org.eclipse.wst.common.component中吧deploy-name，property的value改为自己的项目名
